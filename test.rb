@@ -1,6 +1,6 @@
 def say_hello(name)
-    puts "hello, #{name}!"
+    return"hello, #{name}!"
+    "thank you, #{name}!"
 end
 
-say_hello(27)
-say_hello("田中")
+puts say_hello("田中")
