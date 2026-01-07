@@ -1,1 +1,4 @@
-puts 10 + "90".to_i
+name = "田中"
+age = 28
+
+puts name + "さんの年齢は" + age.to_s + "です"
