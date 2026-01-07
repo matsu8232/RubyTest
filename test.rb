@@ -1,6 +1,4 @@
-puts 10
-puts 10 + 5
-puts 10 - 5
-puts 10 * 5
-puts 10 / 5
-puts 10 % 3
+array = ["HTML","CSS","Ruby",10,30.5]
+
+puts array
+puts array[1]
