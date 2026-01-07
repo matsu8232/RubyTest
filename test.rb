@@ -1,6 +1,9 @@
-def say_hello(name)
-    return"hello, #{name}!"
-    "thank you, #{name}!"
-end
+orange = "Ehime"
 
-puts say_hello("田中")
+if orange == "Yamaguchi"
+    puts "このみかんは山口県産です。"
+elsif orange == "Ehime"
+    puts "このみかんは山口県産ではなく、愛媛県産です。"
+else
+    puts "このみかんは山口県産でも愛媛県産でもありません。"
+end
