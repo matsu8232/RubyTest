@@ -1,4 +1,1 @@
-array = ["HTML","CSS","Ruby",10,30.5]
-
-puts array
-puts array[1]
+puts 10 + "90".to_i
