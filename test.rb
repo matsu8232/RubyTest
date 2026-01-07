@@ -1,4 +1,6 @@
-name = "田中"
-age = 28
+def say_hello(name)
+    puts "hello, #{name}!"
+end
 
-puts name + "さんの年齢は" + age.to_s + "です"
+say_hello(27)
+say_hello("田中")
