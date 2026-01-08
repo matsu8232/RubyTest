@@ -1,10 +1,8 @@
 def fizz_buzz(number)
-    if number % 3 == 0
-        if number % 5 == 0
-            puts "Fizzbuzz"
-        else
-            puts "Fizz"
-        end
+    if number % 15 == 0
+        puts "Fizzbuzz"
+    elsif number % 3 == 0
+        puts "Fizz"
     elsif number % 5 == 0
         puts "Buzz"
     else
