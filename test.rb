@@ -1,10 +1,5 @@
-i = 0
-
-while i < 10
-    puts i
-    i = i + 1
-    if i == 7
-        puts "break"
-        break
-    end
+def say_hello(name)
+    puts "hello,#{name}!"
 end
+
+say_hello(25)
